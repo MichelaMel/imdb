@@ -1,0 +1,238 @@
+/*File css imdb*/
+body {
+  font-family: 'Raleway', sans-serif;
+  font-size: 16px;
+  color: white;
+}
+header {
+  background-image: url("../prod/slide1.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  filter: sepia(10%);
+  height: 800px;
+  z-index: 1;
+  box-sizing: border-box;
+  overflow: hidden;
+  padding: 0 2%;
+}
+header .navbar-default {
+  background-color: transparent;
+  border-color: transparent;
+}
+header .navbar-default .container-fluid {
+  height: 100px;
+  background-color: transparent;
+}
+header .navbar-default .container-fluid .navbar-brand img {
+  width: 130px;
+}
+header .navbar-default .container-fluid .navbar-collapse {
+  text-align: center;
+}
+header .navbar-default .container-fluid .navbar-nav {
+  margin-top: 35px;
+  text-transform: uppercase;
+  display: inline-block;
+  float: none;
+  vertical-align: top;
+}
+header .navbar-default .container-fluid .navbar-nav li a {
+  color: white;
+  margin-left: 35px;
+}
+header .navbar-default .container-fluid .navbar-nav li a:hover {
+  color: #E5BC00;
+}
+header .navbar-default .container-fluid .navbar-right {
+  margin-left: 0;
+}
+header .navbar-default .container-fluid .navbar-right .account {
+  margin-top: -10px;
+}
+header .navbar-default .container-fluid .navbar-right .setting {
+  margin-right: -45px;
+}
+header .film-slide-info {
+  padding-left: 9%;
+  padding-top: 7%;
+  box-sizing: border-box;
+}
+header .film-slide-info h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 72px;
+  letter-spacing: 10px;
+}
+header .film-slide-info .film-category {
+  margin-bottom: 40px;
+}
+header .film-slide-info .film-category span {
+  margin-right: 30px;
+}
+header .film-slide-info .btn-trailer {
+  background-color: #E5BC00;
+  color: black;
+  border-radius: 50px;
+  margin-right: 30px;
+  margin-left: 30px;
+  margin-bottom: 10%;
+}
+header .info-data {
+  font-size: 21px;
+  letter-spacing: 2px;
+}
+header .info-data .film-data {
+  color: #E5BC00;
+}
+section {
+  color: black;
+  background-color: #F3F3F3;
+}
+section .max-box {
+  position: relative;
+  margin-top: -100px;
+  background-color: #F3F3F3;
+  border-radius: 5px;
+}
+section .max-box .nav-pills {
+  text-align: center;
+  text-transform: uppercase;
+}
+section .max-box .nav-pills li {
+  display: inline-block;
+  float: none;
+  padding-top: 20px;
+  padding-left: 14px;
+}
+section .max-box .nav-pills li:nth-child(1) {
+  padding-left: 0;
+}
+section .max-box .nav-pills li a {
+  color: black;
+  font-size: 16px;
+}
+section .max-box .nav-pills .star-btn {
+  background-color: #E5BC00;
+  color: white;
+  padding: 6px 15px;
+}
+section .max-box .nav-pills .star-btn i {
+  margin-right: 10px;
+}
+section .max-box hr {
+  border-top: center 2px #BBBBBB;
+  padding-top: 0;
+}
+section .max-box .search-container {
+  border-bottom: 1px solid #BBBBBB;
+}
+section .max-box .search-container .searchbar {
+  background-color: transparent;
+  border: transparent;
+  width: 60%;
+}
+section .max-box .search-container .searchbar:focus {
+  box-shadow: none;
+}
+section .max-box .search-container .fa-search {
+  float: right;
+}
+section .max-box .box-film {
+  margin-bottom: 40px;
+  padding-bottom: 2%;
+  box-shadow: 1px 9px 21px -5px rgba(48, 48, 48, 0.56);
+  box-sizing: border-box;
+}
+section .max-box .box-film img {
+  width: 100%;
+}
+section .max-box .box-film .film-spec {
+  padding: 1%;
+}
+section .max-box .box-film .film-spec .box-category {
+  color: #E5BC00;
+}
+section .max-box .box-film .film-spec:after {
+  display: inline-block;
+  width: 0;
+  height: 0;
+  content: "";
+  border-style: solid;
+  border-width: 0 0 50px 50px;
+  border-color: transparent transparent #E5BC00 transparent;
+  position: absolute;
+  bottom: 40px;
+  right: 14px;
+  z-index: 1;
+}
+section .max-box .box-film .film-spec:before {
+  display: inline-block;
+  font-size: 25px;
+  content: "+";
+  color: white;
+  position: absolute;
+  bottom: 38px;
+  right: 22px;
+  z-index: 999;
+}
+section .max-box .row {
+  padding: 0 30px;
+  margin-bottom: 20px;
+  color: gray;
+}
+section .max-box .row .icon-grid {
+  margin-top: 10px;
+}
+section .max-box .row .icon-grid .fa-bars {
+  margin-right: 15px;
+}
+section .max-box .row .fa-search {
+  margin-left: 20px;
+}
+section .max-box .row .line img {
+  margin-top: -20px;
+}
+section .scroll img {
+  margin-bottom: 90px;
+  margin-top: 10px;
+}
+footer {
+  color: #BBBBBB;
+  font-size: 12px;
+}
+footer .container-fluid .row .logo-footer {
+  width: 35%;
+}
+footer .container-fluid .row .social-icon {
+  padding: 10px;
+  color: #BBBBBB;
+}
+footer .container-fluid .row .copyr {
+  float: right;
+  font-size: 12px;
+}
+footer .container-fluid .row .anchor-container {
+  padding-top: 20px;
+  margin-bottom: 20px;
+}
+footer .container-fluid .row .anchor-container .anchor {
+  color: #E5BC00;
+  font-size: 12px;
+}
+@media screen and (max-width: 768px) {
+  header .navbar-default .container-fluid .navbar-nav li a {
+    font-size: 12px;
+    margin-left: 10px;
+  }
+  header .navbar-default .container-fluid .navbar-right .setting {
+    margin-right: -19px;
+  }
+  section .max-box .nav-pills li {
+    padding-left: 5px;
+  }
+  section .max-box .nav-pills li a {
+    font-size: 12px;
+  }
+  section .max-box .nav-pills li .star-btn {
+    padding: 6px 15px;
+  }
+}
