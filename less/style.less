@@ -2,7 +2,9 @@
 @darkyellow: #E5BC00;
 @dirtywhite: #F3F3F3;
 @lightgray: #BBBBBB;
+.underline{
 
+}
 body{
 	
 	font-family: 'Raleway', sans-serif;
@@ -286,15 +288,19 @@ section {
 									padding-left: 0;
 									padding-right: 0;
 									padding-bottom: 20px;
-									letter-spacing:  2px;
-									
+									letter-spacing:  2px;									
 									&:hover {
-										text-decoration: none;
-										background-color: transparent;
-										color: @darkyellow;
-										border-bottom: solid 2px @darkyellow;
-										
-										
+											background-color: transparent;
+											&:before {
+											content: "";
+											width: 100%;
+											background-color: @darkyellow;
+											height: 1px;
+											position: absolute;
+											bottom: -1px;
+											left: 0;											
+										}
+																			
 									}
 								}
 						}

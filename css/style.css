@@ -273,10 +273,16 @@ section .max-box .nav-pills li a {
   letter-spacing: 2px;
 }
 section .max-box .nav-pills li a:hover {
-  text-decoration: none;
   background-color: transparent;
-  color: #E5BC00;
-  border-bottom: solid 2px #E5BC00;
+}
+section .max-box .nav-pills li a:hover:before {
+  content: "";
+  width: 100%;
+  background-color: #E5BC00;
+  height: 1px;
+  position: absolute;
+  bottom: -1px;
+  left: 0;
 }
 section .max-box .nav-pills .star-btn {
   background-color: #E5BC00;
